@@ -3,12 +3,7 @@
 import Image from "next/image";
 import React from "react";
 
-import {
-  RadialBarChart,
-  RadialBar,
-  Legend,
-  ResponsiveContainer,
-} from "recharts";
+import { RadialBarChart, RadialBar, ResponsiveContainer } from "recharts";
 
 const data = [
   {
@@ -19,21 +14,14 @@ const data = [
   {
     name: "Boys",
     count: 1000,
-    fill: "#8884d8",
+    fill: "#C2EBFB",
   },
   {
     name: "Girls",
     count: 900,
-    fill: "#C2EBFB",
+    fill: "#FDE68A",
   },
 ];
-
-const style = {
-  top: "50%",
-  right: 0,
-  transform: "translate(0, -50%)",
-  lineHeight: "24px",
-};
 
 const CountChart = () => {
   return (
